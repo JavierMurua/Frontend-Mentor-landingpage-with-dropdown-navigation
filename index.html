@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <nav class="nav container">
+    <img src="./images/logo.svg" alt="Snap (logo)" class="nav__img">
+
+    <div class="nav__hamburguer"></div>
+
+    <div class="nav__overlay">
+      <ul class="nav__menu">
+
+        <li class="nav__item">
+          <span class="nav__parent">Features
+            <img src="./images/icon-arrow-down.svg" alt="icon arrow down" class="nav__arrow">
+          </span>
+
+          <ul class="nav__inner">
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-todo.svg" alt="Icon to do" class="nav__illustration">Todo List
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-calendar.svg" alt="Calendar" class="nav__illustration">Calendar
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-reminders.svg" alt="Reminder" class="nav__illustration">Reminder
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-planning.svg" alt="Planning" class="nav__illustration">Planning
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <span class="nav__parent">Company
+            <img src="./images/icon-arrow-down.svg" alt="icon arrow down" class="nav__arrow">
+          </span>
+
+          <ul class="nav__inner">
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">History</a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">Our Team</a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <a href="#" class="nav__link">Careers</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#" class="nav__link">About</a>
+        </li>
+
+        <li class="nav__login">
+          <a href="#" class="nav__sign">Login</a>
+        </li>
+
+        <li class="nav__login nav__login--border">
+          <a href="#" class="nav__sign">Register</a>
+        </li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+  
+<script src="./js/menu.js"></script>
+</body>
+</html>
